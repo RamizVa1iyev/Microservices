@@ -1,0 +1,37 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "gateway",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "ApiGateway",
+          "Version": "1.0",
+          "Url": "https://localhost:5205/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "reservation",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Reservation.API",
+          "Version": "1.0",
+          "Url": "https://localhost:9001/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "contact",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Contact.API",
+          "Version": "1.0",
+          "Url": "https://localhost:9000/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
