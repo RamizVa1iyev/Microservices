@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IContactService, ContactService>();
 
-builder.WebHost.UseUrls("https://*:9002");
+builder.WebHost.UseUrls("http://*:9002");
 
 var app = builder.Build();
 
