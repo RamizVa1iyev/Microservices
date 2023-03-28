@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Contact.API.Services\Contact.API.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
 </Project>
