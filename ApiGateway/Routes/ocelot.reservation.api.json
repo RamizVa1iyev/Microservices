@@ -5,8 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "c_reservation_api",
-          "Port": 9001
+          "Host": "localhost",
+          "Port": 9003
         }
       ],
       "UpstreamPathTemplate": "/api/reservation/{everything}",

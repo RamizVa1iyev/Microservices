@@ -8,7 +8,7 @@ services:
       context: .
       dockerfile: ApiGateway/Dockerfile
     ports:
-      - 5205:5205
+      - 9001:9001
     networks:
       - micro_net
 
@@ -20,7 +20,7 @@ services:
       context: .
       dockerfile: Services/ContactApi/Contact.API/Dockerfile
     ports:
-      - 9000:9000
+      - 9002:9002
     networks:
       - int_net
 
@@ -31,7 +31,7 @@ services:
       context: .
       dockerfile: Services/ResApi/Reservation.API/Dockerfile
     ports:
-      - 9001:9001
+      - 9003:9003
     networks:
       - int_net
   
