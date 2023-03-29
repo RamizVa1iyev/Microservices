@@ -1,5 +1,5 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:9001"
+    "BaseUrl": "http://c_apigateway"
   }
 }

@@ -1,17 +1,30 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/contact/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/contact/{everything}",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "c_contact_api",
-          "Port": 9002
+          "Port": 7000
         }
-      ],
-      "UpstreamPathTemplate": "/api/contact/{everything}",
-      "UpstreamHttpMethod": [ "Get" ],
-      "SwaggerKey": "contact"
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/contact",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/contact",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "c_contact_api",
+          "Port": 7000
+        }
+      ]
     }
   ]
 }

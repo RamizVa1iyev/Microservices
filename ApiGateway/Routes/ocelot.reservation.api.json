@@ -1,17 +1,30 @@
 ﻿{
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "https",
+      "UpstreamPathTemplate": "/res/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/reservation/{everything}",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "c_reservation_api",
-          "Port": 9003
+          "Port": 7001
         }
-      ],
-      "UpstreamPathTemplate": "/api/reservation/{everything}",
-      "UpstreamHttpMethod": [ "Get" ],
-      "SwaggerKey": "reservation"
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/res",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+
+      "DownstreamPathTemplate": "/api/reservation",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "c_reservation_api",
+          "Port": 7001
+        }
+      ]
     }
   ]
 }
