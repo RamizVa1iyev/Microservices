@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "c_contact_api",
+          "Host": "localhost",
           "Port": 44386
         }
       ],

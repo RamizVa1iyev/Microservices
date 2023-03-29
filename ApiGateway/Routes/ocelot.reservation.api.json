@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "c_reservation_api",
+          "Host": "localhost",
           "Port": 44385
         }
       ],
