@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "c_reservation_api",
-          "Port": 9003
+          "Port": 44385
         }
       ],
       "UpstreamPathTemplate": "/api/reservation/{everything}",

@@ -2,11 +2,11 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
           "Host": "c_contact_api",
-          "Port": 9002
+          "Port": 44386
         }
       ],
       "UpstreamPathTemplate": "/api/contact/{everything}",
