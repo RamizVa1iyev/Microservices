@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "c_reservation_api",
-          "Port": 44385
+          "Port": 9003
         }
       ],
       "UpstreamPathTemplate": "/api/reservation/{everything}",

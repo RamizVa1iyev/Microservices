@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "c_contact_api",
-          "Port": 44386
+          "Port": 9002
         }
       ],
       "UpstreamPathTemplate": "/api/contact/{everything}",

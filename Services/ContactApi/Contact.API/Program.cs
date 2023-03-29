@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IContactService, ContactService>();
 
-//builder.WebHost.UseUrls("http://*:9002");
+builder.WebHost.UseUrls("http://*:9002");
 
 var app = builder.Build();
 
@@ -20,7 +20,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c => c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None));
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
