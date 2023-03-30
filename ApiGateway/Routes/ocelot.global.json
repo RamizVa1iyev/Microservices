@@ -1,5 +1,5 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://c_apigateway"
+    "BaseUrl": "https://lochalhost:44310/"
   }
 }

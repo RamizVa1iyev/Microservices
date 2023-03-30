@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IContactService, ContactService>();
 
-builder.WebHost.UseUrls("http://*:7000");
+builder.WebHost.UseUrls("http://*:9000");
 
 var app = builder.Build();
 

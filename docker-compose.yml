@@ -21,7 +21,7 @@ services:
       context: .
       dockerfile: Services/ContactApi/Contact.API/Dockerfile
     ports:
-      - 7000:7000
+      - 9000:9000
     networks:
       - int_net
 
@@ -32,7 +32,7 @@ services:
       context: .
       dockerfile: Services/ResApi/Reservation.API/Dockerfile
     ports:
-      - 7001:7001
+      - 7000:7000
     networks:
       - int_net
   
