@@ -1,10 +1,10 @@
 {
   "Routes": [
     {
-      "UpstreamPathTemplate": "/c/{id}",
-      "UpstreamHttpMethod": [ "Get"],
+      "UpstreamPathTemplate": "api/contact/{everything}",
+      "UpstreamHttpMethod": [ "Get" ],
 
-      "DownstreamPathTemplate": "/api/contact/{id}",
+      "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {

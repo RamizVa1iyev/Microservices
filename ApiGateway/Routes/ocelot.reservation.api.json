@@ -1,10 +1,10 @@
 ﻿{
   "Routes": [
     {
-      "UpstreamPathTemplate": "/r/{id}",
-      "UpstreamHttpMethod": [ "Get"],
+      "UpstreamPathTemplate": "api/reservation/{everything}",
+      "UpstreamHttpMethod": [ "Get" ],
 
-      "DownstreamPathTemplate": "/api/reservation/{id}",
+      "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
