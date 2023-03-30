@@ -9,7 +9,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "c_reservation_api",
-          "Port": 7000
+          "Port": 9002
         }
       ]
     }

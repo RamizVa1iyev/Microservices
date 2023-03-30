@@ -7,7 +7,7 @@
         {
           "Name": "ApiGateway",
           "Version": "1.0",
-          "Url": "http://c_apigateway/swagger/v1/swagger.json"
+          "Url": "http://c_apigateway:80/swagger/v1/swagger.json"
         }
       ]
     },
@@ -18,7 +18,7 @@
         {
           "Name": "Contact.API",
           "Version": "1.0",
-          "Url": "http://c_contact_api/swagger/v1/swagger.json"
+          "Url": "http://c_contact_api:9001/swagger/v1/swagger.json"
         }
       ]
     },
@@ -29,7 +29,7 @@
         {
           "Name": "Reservation.API",
           "Version": "1.0",
-          "Url": "http://c_reservation_api/swagger/v1/swagger.json"
+          "Url": "http://c_reservation_api:9002/swagger/v1/swagger.json"
         }
       ]
     }

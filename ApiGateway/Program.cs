@@ -23,7 +23,6 @@ builder.Configuration.SetBasePath(Directory.GetCurrentDirectory())
 
 // Add services to the container.
 
-//builder.WebHost.UseUrls("http://*:1000");
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

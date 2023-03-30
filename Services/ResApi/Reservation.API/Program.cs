@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IReservationService, ReservationService>();
 
-builder.WebHost.UseUrls("http://*:7001");
+builder.WebHost.UseUrls("http://*:9002");
 
 
 var app = builder.Build();

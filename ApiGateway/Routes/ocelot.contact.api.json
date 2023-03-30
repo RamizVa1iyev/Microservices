@@ -9,7 +9,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "c_contact_api",
-          "Port": 9000
+          "Port": 9001
         }
       ]
     }

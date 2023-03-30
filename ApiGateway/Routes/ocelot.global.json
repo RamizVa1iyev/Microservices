@@ -1,5 +1,5 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "https://lochalhost:44310/"
+    "BaseUrl": "http://c_api_gateway:80/"
   }
 }
