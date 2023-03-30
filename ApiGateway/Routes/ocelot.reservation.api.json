@@ -12,19 +12,6 @@
           "Port": 9002
         }
       ]
-    },
-    {
-      "UpstreamPathTemplate": "/swagger/{everything}",
-      "UpstreamHttpMethod": [ "Get" ],
-
-      "DownstreamPathTemplate": "/swagger/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "c_reservation_api",
-          "Port": 9002
-        }
-      ]
     }
   ]
 }
