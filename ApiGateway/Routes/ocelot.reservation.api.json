@@ -4,7 +4,7 @@
       "UpstreamPathTemplate": "api/reservation/{everything}",
       "UpstreamHttpMethod": [ "Get" ],
 
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "api/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
