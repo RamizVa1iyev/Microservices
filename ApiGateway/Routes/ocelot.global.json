@@ -1,5 +1,5 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://c_api_gateway:80/"
+    "BaseUrl": "http://c_api_gateway"
   }
 }
