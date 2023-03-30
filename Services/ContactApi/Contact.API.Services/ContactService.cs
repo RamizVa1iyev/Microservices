@@ -7,7 +7,7 @@ namespace Contact.API.Services
     {
         public ContactDTO GetContactById(int id)
         {
-            return new ContactDTO { Id = id, FirstName = "Ramiz", LastName = "Valiyev" };
+            return new ContactDTO { Id = id, FirstName = "Ramiz", LastName = "Veliyev" };
         }
     }
 }
