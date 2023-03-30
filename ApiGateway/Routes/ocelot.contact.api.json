@@ -3,21 +3,8 @@
     {
       "UpstreamPathTemplate": "/api/contact/{everything}",
       "UpstreamHttpMethod": [ "Get" ],
-
+      "SwaggerKey": "contact",
       "DownstreamPathTemplate": "/api/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "c_contact_api",
-          "Port": 9001
-        }
-      ]
-    },
-    {
-      "UpstreamPathTemplate": "/swagger/docs/1.0/contact",
-      "UpstreamHttpMethod": [ "Get" ],
-
-      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {

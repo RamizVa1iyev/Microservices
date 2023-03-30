@@ -3,7 +3,7 @@
     {
       "UpstreamPathTemplate": "/api/reservation/{everything}",
       "UpstreamHttpMethod": [ "Get" ],
-
+      "SwaggerKey": "reservation",
       "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
