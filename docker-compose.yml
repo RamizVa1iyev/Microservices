@@ -23,7 +23,7 @@ services:
     ports:
       - 9001:9001
     networks:
-      - int_net
+      - micro_net
 
   s_reservation_api:
     container_name: c_reservation_api
