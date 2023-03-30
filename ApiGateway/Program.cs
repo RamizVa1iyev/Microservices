@@ -42,8 +42,8 @@ app.UseAuthorization();
 
 app.UseSwaggerForOcelotUI(opt =>
 {
-    //opt.PathToSwaggerGenerator = "/swagger/docs";
-    opt.ReConfigureUpstreamSwaggerJson = AlterUpstream.AlterUpstreamSwaggerJson;
+    opt.PathToSwaggerGenerator = "/swagger/docs";
+    //opt.ReConfigureUpstreamSwaggerJson = AlterUpstream.AlterUpstreamSwaggerJson;
 }).UseOcelot().Wait();
 
 app.MapControllers();
